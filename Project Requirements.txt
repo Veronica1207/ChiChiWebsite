@@ -1,0 +1,10 @@
+1. A clear topic that is clearly described on the homepage
+2. 6 or more HTML pages interlinked
+3. Minimum 5 pages of actual content authored by you, 1 page where content is lorem ipsum HTML
+4. Responsive to clients of all kinds
+5. Font icons
+6. Font server or @font-face must be used for all font families
+7. A clickable site map or site index (supplemental navigation)
+8. An HTML form (without a script)
+9. At least 1 scripting element (client-side javascript or server side PHP)
+10. Email notification to the instructor
