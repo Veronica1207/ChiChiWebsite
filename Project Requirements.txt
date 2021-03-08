@@ -8,3 +8,7 @@
 8. An HTML form (without a script)
 9. At least 1 scripting element (client-side javascript or server side PHP)
 10. Email notification to the instructor
+
+Notes
+
+Colors:
