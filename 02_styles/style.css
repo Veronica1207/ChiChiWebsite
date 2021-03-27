@@ -1,0 +1,41 @@
+/*img {
+   max-width: 5%;
+   height: auto; 
+}
+*/
+
+
+@font-face {
+   font-family: 'ralewaylight';
+   src: url('../01_fonts/raleway_regular/raleway-regular-webfont.woff2') format('woff2'),
+        url('../01_fonts/raleway_regular/raleway-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'black_jackregular';
+   src: url('../01_fonts/blackjack/blackjack-webfont.woff2') format('woff2'),
+        url('../01_fonts/blackjack/blackjack-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+@font-face {
+   font-family: 'alluraregular';
+   src: url('../01_fonts/allura/allura-regular-webfont.woff2') format('woff2'),
+        url('../01_fonts/allura/allura-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+body {
+   font-family: 'ralewaylight', sans-serif;
+}
+
+.our-advice {
+   font-family: 'alluraregular', sans-serif;
+   font-size: 2rem;
+}
