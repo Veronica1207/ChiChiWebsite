@@ -22,17 +22,79 @@
         </header>
         <nav>
             <ul>
-                <li><a id="active" href="index.html">Home</a></li>
-                <li><a href="how to start/how_to_start_page.html">How to start?</a></li>
-                <li><a href="knitting secrets/knitting-secrets-page_main.html">Knitting Secrets</a></li>
-                <li><a href="chichi projects/chichi_projects_page_main.html">ChiChi Projects</a></li>
-                <li><a href="get_creative/get_creative_page_main.html">Get Creative!</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../how to start/how_to_start_page.html">How to start?</a></li>
+                <li><a href="../knitting secrets/knitting-secrets-page_main.html">Knitting Secrets</a></li>
+                <li><a href="../chichi projects/chichi_projects_page_main.html">ChiChi Projects</a></li>
+                <li><a href="../get_creative/get_creative_page_main.html">Get Creative!</a></li>
+                <li><a id="active" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <main>
             <section>
+                <form   action="http://bcitcomp.ca/comp1850_homework06.php"
+		        method="post"
+		        class="my-form">
+            
+            <legend>Prefix</legend>
+            <div id ="prefix-form">           
+            <div id="radio-button">
+            <input  type="radio"	
+                    name="prefix" 
+                    id="mr"
+                    value="Mr."	/>
+            <label  for="mr">Mr.</label>
+            </div>
+            <div>
+            <input  type="radio"	
+                    name="prefix" 
+                    id="mrs"
+                    value="Mrs."	/>
+            <label  for="mrs">Mrs.</label>
+            </div>
+            <div>
+            <input  type="radio"	
+                    name="prefix" 
+                    id="ms"
+                    value="Ms."	/>
+            <label  for="ms">Ms.</label>
+            </div>
+            </div>
 
+            <div class = "single-field-form">
+            <label  for="firstname">First Name:</label>
+            <input  type="text"	
+                    name="firstname" 
+                    id="firstname"
+                    required="required"		/>
+            </div>
+            <div class = "single-field-form">            
+            <label  for="lastname">Last Name:</label>
+            <input  type="text"	
+                    name="lastname" 
+                    id="lastname"
+                    required="required"		/>
+
+            <div class = "single-field-form">            
+            <label	for="email">Email</label>
+            <input 	type="email"	
+                    name="email" 
+                    id="email"
+                    required="required"	/>
+            </div>
             </section>
+        </fieldset>
+        <div id="field-form">
+        <label>Leave us a comment!</label>
+        <textarea   name="comments"
+                    placeholder="Leave a comment"
+                    required = "required"
+                    id="comments"></textarea> 
+        </div>
+
+        <input  type="submit"	
+                value="Submit" />
+    </form>
         </main>
         <footer>
 
