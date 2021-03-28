@@ -23,6 +23,7 @@ colors:
 
 @import url("../02_styles/style-menu.css");
 @import url("../02_styles/media.css");
+@import url("../02_styles/style_how_to.css");
 
 @font-face {
    font-family: 'ralewaylight';
@@ -167,6 +168,8 @@ footer a:hover {
 
 #wrapper {
    margin: 15px;
+   max-width:1024px;
+   min-height:100vh;
 }
 
 #squirell-img img {

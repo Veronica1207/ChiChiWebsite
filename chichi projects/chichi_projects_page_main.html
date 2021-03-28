@@ -22,21 +22,25 @@
     <link href="../02_styles/style.css" rel="stylesheet">
 </head>
 
+<div id="wrapper">
 <body>
-    <div id="wrapper">    
+        
         <header>
             <figure>
                 <img src="../00_images/HomepageLogoUPD2_transparent.png" alt="ChiChi Squirell Logo"> 
             </figure>
         </header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../how to start/how_to_start_page.html">How to start?</a></li>
-                <li><a href="../knitting secrets/knitting-secrets-page_main.html">Knitting Secrets</a></li>
-                <li><a id="active" href="chichi_projects_page_main.html">ChiChi Projects</a></li>
-                <li><a href="../get_creative/get_creative_page_main.html">Get Creative!</a></li>
-                <li><a href="../contact us/contact.html">Contact Us</a></li>
+        <div class="menu">
+            <span></span>
+        </div>
+        <nav class="navbar-menu">
+            <ul class="menu-listing">
+                <li><a clss="menu-link" href="../index.html">Home</a></li>
+                <li><a clss="menu-link" href="../how to start/how_to_start_page.html">How to start?</a></li>
+                <li><a clss="menu-link" href="../knitting secrets/knitting-secrets-page_main.html">Knitting Secrets</a></li>
+                <li><a clss="menu-link" id="active" href="chichi_projects_page_main.html">ChiChi Projects</a></li>
+                <li><a clss="menu-link" href="../get_creative/get_creative_page_main.html">Get Creative!</a></li>
+                <li><a clss="menu-link" id="last-menu-item" href="../contact us/contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <main>
@@ -106,11 +110,32 @@
                 </article>
             </section>
         </main>
-        <footer>
-
-        </footer>
+    </body>
     </div>
 
-</body>
 
+<footer>
+    <p>Follow us:</p>
+    <ul id ="social-footer">
+        <li><a class="social_a twitter" href="https://twitter.com/" target="_blank">Twitter</a></li>
+        <li><a class="social_a instagram" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a class="social_a pinterest" href="https://www.pinterest.ca/" target="_blank">Pinterest</a></li>
+    </ul>
+    <div id = "footer-sections">
+    <ul>
+        <li><a href="how to start/how_to_start_page.html">How to Start?</a></li>
+        <li><a href="knitting secrets/knitting-secrets-page_main.html">Knitting Secrets</a></li>   
+    </ul>
+    <ul>
+        <li><a href="get_creative/get_creative_page_main.html">Get Creative!</a></li>
+        <li><a href="chichi projects/chichi_projects_page_main.html">ChiChi Projects</a></li>
+    </ul>
+    </div>
+    <ul>
+        <li><a href="contact us/contact.html">Contact Us</a></li>
+    </ul>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="../03_scripts/Mobile-Hamburger-Menu/js/script.js"></script>
 </html>

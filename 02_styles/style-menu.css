@@ -76,6 +76,19 @@
     transition: 0.5s;
 }
 
+
+
+#active {
+	background-color: #feba9d;
+	font-weight: bold;
+	color: white;
+}
+
+#last-menu-item {
+	border-bottom: solid 2px #fb896e;
+	box-shadow: 2px 2px 2px #f5cfc4;
+}
+
 .navbar-menu.active { 
 	transform: translateX(0);
 	transition: 0.5s; 
@@ -104,8 +117,8 @@
 .menu-listing li a:focus,
 .menu-listing li a:active,
 .menu-listing li a:hover {
-	background-color: #feba9d;
-	color: #c56682;
+	background-color: #c56682;
+	color: #feba9d;
 	font-weight: bold;
 	transition: none;
 }
