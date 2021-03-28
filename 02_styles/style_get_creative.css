@@ -1,0 +1,38 @@
+.top-article ul {
+    list-style: url("../00_images/icons/star-regular.svg");
+    padding-left: 20px;
+}
+
+.example_content_image{
+    float: right;
+    padding: 0px 15px 0px 0px;
+}
+
+table{
+    border-style:double;
+    border-width: 3px;
+    border-color: #fb896e;
+    width:50%;
+    background-color:#f5cfc4;
+}
+
+td{
+    border-style:solid;
+    border-width:1px;
+    background-color:#f5cfc4;
+}
+
+th{
+    border-style:solid;
+    border-width:1px;
+    border-color:#fb896e;
+    color: white;
+    background-color: #8ac641;
+    padding: 7px; 
+}
+
+#table-placement {
+    display:block;
+    display:flex;
+    justify-content: center;
+}

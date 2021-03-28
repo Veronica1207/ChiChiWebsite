@@ -1,0 +1,107 @@
+.single-field-form {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.single-field-form input[type="text"],
+.single-field-form input[type="email"] {
+    width: 98%;
+    height: 40px;
+}
+
+.single-field-form input[type="text"],
+.single-field-form input[type="email"],
+#field-form textarea {
+    border: solid 2px #f5cfc4;
+    border-bottom: 0px;
+    border-right: 0px;
+    box-shadow: 2px 2px 2px #f5cfc4;
+    transition:all .2s linear;
+}
+
+.single-field-form input[type="text"]:focus,
+.single-field-form input[type="email"]:focus,
+#field-form textarea:focus {
+    outline: none;
+    border: solid 2px #dcedff;
+    box-shadow: 0 0 2px 2px #c0e9e5;
+    background:linear-gradient(#fff, #fff, #d6eaeb);
+}
+
+
+input[type="submit"]{
+    font-family: 'ralewaylight', sans-serif;
+    letter-spacing: 2px;
+    width: 25%;
+    height: 40px;
+    border: solid 2px #00b7cc;
+    box-shadow: 2px 2px 2px gray;
+    background-color: #00b7cc;
+    font-size: 1em;
+    color: #f5d4d6;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+    font-family: 'ralewaylight', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transform:scale(1.1);
+    border: 0px;
+    background-color: #fb896e;
+    color: white;
+    font-weight: bold;
+}
+
+#prefix-form {
+    margin: 20px 0px;
+    display: flex;
+}
+
+#prefix-form input[type="radio"] {
+    margin: 0px;
+    width: 15px;
+    height: 15px;
+}
+#prefix-form label {
+    position: relative;
+    display:inline-block;
+    margin-left: 18px;
+}
+
+#prefix-form input {
+    visibility: hidden;
+}
+
+#prefix-form label:before {
+    content:"";
+    background-color: #fb896e;
+    width:20px;
+    height:20px;
+    position:absolute;
+    right: 40px;
+    top: 2px;
+    border-radius: 50%;
+}
+
+#prefix-form input:checked ~ label:before {
+    background-color: white;
+    border: 5px solid #fb896e;
+    width:12px;
+    height:12px;
+}
+
+#field-form {
+    display:flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+#field-form textarea {
+    width: 98%;
+    min-height: 150px;
+    margin-top: 3px;
+}

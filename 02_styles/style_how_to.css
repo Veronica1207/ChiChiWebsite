@@ -1,0 +1,81 @@
+
+#how-to-start  h2, h3, h4 {
+    line-height: 20px;  
+}
+
+#how-to-start h1 {
+    color: #966b9d;
+}
+
+#how-to-start h2 {
+    color: #966b9d;
+}
+
+#how-to-start h3 {
+    color: #00b7cc;
+}
+
+#how-to-start h4 {
+    color: #8ac641;
+}
+
+#chart-needles img {
+    max-width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#chart-needles {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#chart-yarn img{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#chart-yarn {
+    margin: 0px;
+    margin-bottom: 25px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.index-how-to-page ol{
+    margin: 1px;
+    padding: 15px;
+    color: #966b9d;
+}
+
+.index-how-to-page ul {
+    list-style: url("../00_images/icons/star-regular.svg")
+}
+
+.index-how-to-page a:link {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.index-how-to-page a:hover {
+    color: #966b9d;
+}
+
+.equipment-section ul {
+    margin: 0px;
+    padding-left: 15px;
+    list-style: url("../00_images/icons/star-regular.svg") 
+}
+
+fieldset {
+    padding-top: 15px;
+    border-color: #fb896e;
+    background:linear-gradient(#fff, #f0e5e3, #f5cfc4);
+}

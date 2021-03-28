@@ -1,0 +1,45 @@
+.submenu {
+    background:linear-gradient(#fff, #f0e5e3, #f5cfc4);
+    letter-spacing: 3px;
+}
+
+
+.submenu ul {
+    list-style: none;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.submenu a:link {
+    display: block;
+    height: 35px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #8ac641;
+    text-align: center;
+}
+
+.submenu a:visited {
+    color: #8ac641;
+}
+
+.submenu #active {
+    background-color: #8ac641;
+}
+
+.submenu a:active,
+.submenu a:focus,
+.submenu a:hover {
+    background-color: #f5c46c;
+    color: white;
+    font-weight: bold;
+ }
+
+.submenu p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #c56682;
+    padding: 10px;
+    text-align: center;
+}

@@ -10,12 +10,16 @@ colors:
 #fb896e orange accent
 #8ac641 green scarf
 # baby blue dark
-# baby blue
+#dcedff baby blue
 #fdeacc sandy
+#966b9d violet
 
 #f5cfc4 tender orange
 #f1b5b5 more pink
 #feba9d orange 
+#725477 text color dark purple
+
+#f8b3b8 pink from the ball
 
 #f5cfc4 powder pink
 # tender pink
@@ -24,6 +28,10 @@ colors:
 @import url("../02_styles/style-menu.css");
 @import url("../02_styles/media.css");
 @import url("../02_styles/style_how_to.css");
+@import url("../02_styles/style_submenu.css");
+@import url("../02_styles/style_projects.css");
+@import url("../02_styles/style_get_creative.css");
+@import url("../02_styles/style_contact.css");
 
 @font-face {
    font-family: 'ralewaylight';
@@ -55,11 +63,20 @@ html {
    box-sizing:border-box;
    font-family: 'ralewaylight', sans-serif;
    line-height: 1.5rem;
+   color: #725477;
 }
 
 body {
    margin: 0px;
    padding: 0px;
+}
+
+h1 {
+   font-size: 1.4rem;
+}
+
+h2, h3, h4, h5, h6 {
+   font-size: 1.2rem;
 }
 
 header img {
@@ -167,7 +184,7 @@ footer a:hover {
 }
 
 #wrapper {
-   margin: 15px;
+   padding: 15px;
    max-width:1024px;
    min-height:100vh;
 }
