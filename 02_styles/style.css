@@ -1,9 +1,28 @@
-/*img {
-   max-width: 5%;
-   height: auto; 
-}
+/*
+author: veronica A01208105
+date: 2021-03-27
 */
 
+/*
+colors:
+#62b7b9 blue ball 
+#00b7cc bright blue
+#fb896e orange accent
+#8ac641 green scarf
+# baby blue dark
+# baby blue
+#fdeacc sandy
+
+#f5cfc4 tender orange
+#f1b5b5 more pink
+#feba9d orange 
+
+#f5cfc4 powder pink
+# tender pink
+*/
+
+@import url("../02_styles/style-menu.css");
+@import url("../02_styles/media.css");
 
 @font-face {
    font-family: 'ralewaylight';
@@ -31,10 +50,135 @@
 
 }
 
-body {
+html {
+   box-sizing:border-box;
    font-family: 'ralewaylight', sans-serif;
    line-height: 1.5rem;
 }
+
+body {
+   margin: 0px;
+   padding: 0px;
+}
+
+header img {
+   max-width: 100%;
+   height: auto;
+}
+
+header figure {
+   margin: 0px;
+   padding: 0px;
+   text-align: center;
+}
+
+a:link {
+   color:#fb896e;
+   font-weight: bold;
+}
+a:visited {
+   color: #00b7cc;
+   font-weight: normal;
+}
+
+a:active,
+a:focus,
+a:hover {
+   color: #f5c46c;
+   text-decoration: none;
+}
+
+footer {
+   margin: 0px;
+   padding: 10px;
+   background-color: #f5cfc4;
+}
+
+footer ul {
+   padding: 0px;
+   margin: 10px;
+   list-style: none;
+   text-align: center;
+}
+footer p {
+   text-align: center;
+}
+
+footer a:link {
+   display: block;
+   padding: 0px 10px;
+   padding-top: 5px;
+   height: 40px;
+   font-weight: normal;
+   text-decoration: none;
+   color: #4e3118;
+}
+
+footer a:visited {
+   color: #966b9d;
+}
+
+footer a:active,
+footer a:focus,
+footer a:hover {
+   color: #fb896e;
+   font-weight: bolder;
+}
+
+.social_a {
+   background-repeat: no-repeat;
+   background-size: 20px;
+   background-position-x: 0px;
+   background-position-y: center;
+}
+
+#social-footer {
+   display: flex;
+   justify-content: space-between;
+}
+
+#social-footer a:link {
+   padding-left: 23px;
+   padding-top: 10px;
+}
+
+.twitter {
+   background-image: url("../00_images/icons/twitter-square-brands.svg");
+}
+
+.instagram {
+   background-image: url("../00_images/icons/instagram-brands.svg");
+}
+
+.pinterest {
+   background-image: url("../00_images/icons/pinterest-square-brands.svg");
+}
+
+#footer-sections {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+#footer-sections a {
+   padding: 0px 10px;
+   padding-top: 5px;
+}
+
+#wrapper {
+   margin: 15px;
+}
+
+#squirell-img img {
+   max-width: 100%;
+   height: auto;   
+}
+
+#squirell-img {
+   text-align: center;
+}
+
+
 
 .our-advice {
    font-family: 'alluraregular', sans-serif;
@@ -43,5 +187,8 @@ body {
 
 #welcome-msg {
    font-family: 'black_jackregular', sans-serif;
-   font-size: 2rem;
+   font-size: 1.2rem;
+   line-height: 2rem;
+   color: #fb896e;
+   text-align: center;
 }
