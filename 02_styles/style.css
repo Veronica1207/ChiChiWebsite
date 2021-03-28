@@ -33,9 +33,15 @@
 
 body {
    font-family: 'ralewaylight', sans-serif;
+   line-height: 1.5rem;
 }
 
 .our-advice {
    font-family: 'alluraregular', sans-serif;
+   font-size: 2rem;
+}
+
+#welcome-msg {
+   font-family: 'black_jackregular', sans-serif;
    font-size: 2rem;
 }
