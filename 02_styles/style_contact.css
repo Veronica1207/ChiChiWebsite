@@ -105,3 +105,22 @@ input[type="submit"]:active {
     min-height: 150px;
     margin-top: 3px;
 }
+
+@media (min-width: 930px) {
+    .form-outline {
+        margin: 40px 170px;
+        padding: 30px;
+        border: solid 2px #f1b5b5;
+        background-image: url("../00_images/form-back02.jpg");
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .my-form {
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0.80);
+        padding: 10px;
+    }
+
+
+}

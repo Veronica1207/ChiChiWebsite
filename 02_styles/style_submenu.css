@@ -43,3 +43,33 @@
     padding: 10px;
     text-align: center;
 }
+
+@media (min-width: 1020px) {
+    .container {
+        display: grid;
+        grid-gap: 20px 30px;
+        grid-template-columns: .8fr 3fr;
+        grid-template-rows: minmax(30px, auto);
+        grid-template-areas:
+        "section2 section1"
+    }
+
+    .section1 {
+        grid-area: section1;
+    }
+    .section2 {
+        grid-area: section2;
+        background-color: #f5cfc4;
+    }
+    .submenu {
+        font-size: 0.9rem;
+    }
+    .submenu p{
+        padding: 2px;
+    }
+    .submenu ul {
+        padding-top: 12px;
+        margin-top: 0px;
+    }
+
+}

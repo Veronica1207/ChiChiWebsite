@@ -3,14 +3,6 @@
     line-height: 20px;  
 }
 
-#how-to-start h1 {
-    color: #966b9d;
-}
-
-#how-to-start h2 {
-    color: #966b9d;
-}
-
 #how-to-start h3 {
     color: #00b7cc;
 }
@@ -76,6 +68,26 @@
 
 fieldset {
     padding-top: 15px;
-    border-color: #fb896e;
-    background:linear-gradient(#fff, #f0e5e3, #f5cfc4);
+    border-color: #f8ebf3;
+    background:linear-gradient(#fff, #f5e8e4, #f5cfc4);
+}
+
+@media (min-width: 800px) 
+{
+    .article-img-wrap {
+        display: flex;
+        align-items: center;
+    }
+    
+    #chart-needles img {
+        margin: 0px;
+        max-width: 250px;
+        height: auto;
+
+    } 
+
+    #chart-yarn img{
+        max-width: 70%;
+    }
+    
 }
