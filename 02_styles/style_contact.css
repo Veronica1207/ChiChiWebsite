@@ -106,6 +106,10 @@ input[type="submit"]:active {
     margin-top: 3px;
 }
 
+.my-form {
+    padding-top: 12px;
+}
+
 @media (min-width: 930px) {
     .form-outline {
         margin: 40px 170px;
