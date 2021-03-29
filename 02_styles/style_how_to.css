@@ -1,3 +1,33 @@
+fieldset {
+    padding-top: 15px;
+    border-color: #f8ebf3;
+    background:linear-gradient(#fff, #f5e8e4, #f5cfc4);
+}
+
+.index-how-to-page ol{
+    margin: 3px;
+    padding: 15px;
+    color: #966b9d;
+}
+
+.index-how-to-page ul {
+    list-style: url("../00_images/icons/star-regular.svg")
+}
+
+.index-how-to-page a:link {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.index-how-to-page a:hover {
+    color: #966b9d;
+}
+
+.equipment-section ul {
+    margin: 0px;
+    padding-left: 15px;
+    list-style: url("../00_images/icons/star-regular.svg") 
+}
 
 #how-to-start  h2, h3, h4 {
     line-height: 20px;  
@@ -38,38 +68,6 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-}
-
-
-.index-how-to-page ol{
-    margin: 1px;
-    padding: 15px;
-    color: #966b9d;
-}
-
-.index-how-to-page ul {
-    list-style: url("../00_images/icons/star-regular.svg")
-}
-
-.index-how-to-page a:link {
-    font-weight: normal;
-    text-decoration: none;
-}
-
-.index-how-to-page a:hover {
-    color: #966b9d;
-}
-
-.equipment-section ul {
-    margin: 0px;
-    padding-left: 15px;
-    list-style: url("../00_images/icons/star-regular.svg") 
-}
-
-fieldset {
-    padding-top: 15px;
-    border-color: #f8ebf3;
-    background:linear-gradient(#fff, #f5e8e4, #f5cfc4);
 }
 
 @media (min-width: 800px) 

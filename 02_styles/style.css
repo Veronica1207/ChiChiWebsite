@@ -3,28 +3,6 @@ author: veronica A01208105
 date: 2021-03-27
 */
 
-/*
-colors:
-#62b7b9 blue ball 
-#00b7cc bright blue
-#fb896e orange accent
-#8ac641 green scarf
-# baby blue dark
-#dcedff baby blue
-#fdeacc sandy
-#966b9d violet
-
-#f5cfc4 tender orange
-#f1b5b5 more pink
-#feba9d orange 
-#725477 text color dark purple
-
-#f8b3b8 pink from the ball
-
-#f5cfc4 powder pink
-# tender pink
-*/
-
 @import url("../02_styles/style-menu.css");
 @import url("../02_styles/media.css");
 @import url("../02_styles/style_how_to.css");
@@ -143,21 +121,16 @@ footer a:hover {
    font-weight: bolder;
 }
 
+.our-advice {
+   font-family: 'alluraregular', sans-serif;
+   font-size: 2rem;
+}
+
 .social_a {
    background-repeat: no-repeat;
    background-size: 20px;
    background-position-x: 0px;
    background-position-y: center;
-}
-
-#social-footer {
-   display: flex;
-   justify-content: space-between;
-}
-
-#social-footer a:link {
-   padding-left: 23px;
-   padding-top: 10px;
 }
 
 .twitter {
@@ -170,6 +143,16 @@ footer a:hover {
 
 .pinterest {
    background-image: url("../00_images/icons/pinterest-square-brands.svg");
+}
+
+#social-footer {
+   display: flex;
+   justify-content: space-between;
+}
+
+#social-footer a:link {
+   padding-left: 23px;
+   padding-top: 10px;
 }
 
 #footer-sections {
@@ -198,13 +181,6 @@ footer a:hover {
    text-align: center;
 }
 
-
-
-.our-advice {
-   font-family: 'alluraregular', sans-serif;
-   font-size: 2rem;
-}
-
 #welcome-msg {
    font-family: 'black_jackregular', sans-serif;
    font-size: 1.2rem;
@@ -220,28 +196,28 @@ footer a:hover {
       justify-content: space-evenly;
       align-items:flex-start;
       padding: 10px 20px;
-      }
+   }
    
-      footer ul {
-         padding: 0px;
-         margin: 10px;
-         list-style: none;
-         text-align: center;
-      }
-      footer p {
-         display: none;
-      }
+   footer ul {
+      padding: 0px;
+      margin: 10px;
+      list-style: none;
+      text-align: center;
+   }
+   footer p {
+      display: none;
+   }
    
-      .social_a {
-         background-repeat: no-repeat;
-         background-size: 20px;
-         background-position-x: 0px;
-         background-position-y: center;
-      }
+   .social_a {
+      background-repeat: no-repeat;
+      background-size: 20px;
+      background-position-x: 0px;
+      background-position-y: center;
+   }
    
-      #social-footer {
-         display: block;
-      }
+   #social-footer {
+      display: block;
+   }
 }
 
 
@@ -252,14 +228,14 @@ footer a:hover {
       justify-content: space-evenly;
       align-items: center;
       padding: 10px 100px;
-      }
+   }
    
-      footer ul {
-         padding: 0px;
-         margin: 10px;
-         list-style: none;
-         text-align: center;
-      }
+   footer ul {
+      padding: 0px;
+      margin: 10px;
+      list-style: none;
+      text-align: center;
+   }
 }
 
 @media (min-width: 1024px) {
@@ -271,7 +247,7 @@ footer a:hover {
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100%;
-  }
+   }
 
   #wrapper {
    min-height: 100vh;
@@ -283,10 +259,6 @@ footer a:hover {
    display: flex;
    flex-direction: column;
   }
-
-  
-
-
 
 }
 

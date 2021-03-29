@@ -1,14 +1,12 @@
-#projects-image img {
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+.featured a:link,
+.featured a:visited {
+    color: #725477;
+    text-decoration: none;
 }
 
-#projects-image {
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
+.featured a:hover {
+    color: #966b9d;
+    font-size: 1.4rem;
 }
 
 .skill-levels img{
@@ -39,6 +37,19 @@
     margin-bottom: 20px;
 }
 
+#projects-image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects-image {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
 #grif-scarf {
     background: url("../00_images/knitting_projects/grif_scarf.jpg");
     background-repeat: no-repeat;
@@ -52,17 +63,6 @@
     height: 50px;
     padding-top: 20px;
     background-color: rgba(255, 255, 255, 0.80); 
-}
-
-.featured a:link,
-.featured a:visited {
-    color: #725477;
-    text-decoration: none;
-}
-
-.featured a:hover {
-    color: #966b9d;
-    font-size: 1.4rem;
 }
 
 @media (min-width: 690px) {

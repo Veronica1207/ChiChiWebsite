@@ -61,13 +61,11 @@
 		box-shadow: none;
 	}
 
-	@media (min-width:1070px) {
-		.menu-listing li a {
-			height: 45px;
-			padding: 15px 20px 0px;
-		}
+}
+
+@media (min-width:1070px) {
+	.menu-listing li a {
+		height: 45px;
+		padding: 15px 20px 0px;
 	}
-
-	/* End */
-
 }
